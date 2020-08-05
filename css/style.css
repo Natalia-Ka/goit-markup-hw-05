@@ -641,7 +641,6 @@ color: var(--accent-color);
     transform: translateY(0); 
 }
 
-
 .portfolio-description{
     position: absolute;
     display: inline-block;
