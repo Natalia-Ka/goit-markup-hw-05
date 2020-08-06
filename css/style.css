@@ -19,6 +19,7 @@ html {
     --bacground-color: #F5F4FA;
     --background-logo-color: #AFB1B8;
     --background-social-media: rgba(255, 255, 255, 0.1);
+    --time-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -730,18 +731,21 @@ color: var(--accent-color);
      width: 100%;
      height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity 250ms; var(--time-function); 
  }
 
  .backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
+    transform: translate(-50%, -50%);
 }
 
  .modal{
      position: absolute;
      top: 50%;
      left: 50%;
-     transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%); scale: 1;
 
      min-width: 528px;
      min-height: 581px;
@@ -754,7 +758,6 @@ color: var(--accent-color);
  }
 
  .modal-title{
-
     font-family: Roboto;
     font-weight: bold;
     font-size: 20px;
@@ -773,7 +776,7 @@ color: var(--accent-color);
      border-radius: 4px; 
      text-align: center;
 
-     background: var(--accent-color);
+    background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
 
@@ -783,7 +786,6 @@ color: var(--accent-color);
     line-height: 1.87; 
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
-    text-decoration: none;
  }
 
 
