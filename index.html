@@ -405,15 +405,19 @@
 
     </footer>
 
-    <div class="backdrop is-hidden">
+    <button data-modal-open>Открыть модалку</button>
+    <p></p>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <p class="modal-title">
                 Оставьте свои данные, мы вам перезвоним
             </p>
-            <button class="modal-btn">Отправить</button>
+            <button data-modal-close>Отправить</button>
         </div>
     
     </div>
+
+    <script src="./js/modal.js"></script>
 
 </body>
 
