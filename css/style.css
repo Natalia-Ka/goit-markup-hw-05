@@ -19,7 +19,7 @@ html {
     --bacground-color: #F5F4FA;
     --background-logo-color: #AFB1B8;
     --background-social-media: rgba(255, 255, 255, 0.1);
-    --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -93,10 +93,6 @@ body{
     align-items: center;
 }
 
-/* .main-nav{
-    padding-top: 24px;
-    padding-bottom: 25px;
-} */
 
 .site-nav .item:not(:last-child){
     margin-right: 50px;
@@ -128,6 +124,8 @@ body{
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--title-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
@@ -484,7 +482,9 @@ body{
     align-items: center;
     justify-content: center;
     --color4: var(--primary-white-color);
-    --color5: var(--background-logo-color);  
+    --color5: var(--background-logo-color); 
+    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon:hover,
@@ -516,6 +516,8 @@ body{
     border-radius: 4px;
 
     color: var(--background-logo-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -618,6 +620,8 @@ color: var(--accent-color);
     justify-content: center;
     --color4: var(--background-social-media);
     --color5: var(--primary-white-color);  
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social .item-sm:not(:last-child){
@@ -643,6 +647,8 @@ color: var(--accent-color);
     line-height: 1.62;
     text-align: center;   
     color: var(--title-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     
 }
@@ -730,6 +736,8 @@ color: var(--accent-color);
     position: relative;
     display: block;
     text-decoration: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
