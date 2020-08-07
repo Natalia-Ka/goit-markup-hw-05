@@ -259,9 +259,9 @@ body{
     text-decoration: none;
 }
 
-.btn:hover,
+.btn:hover
 .btn:focus{
-    visibility: hidden;
+   visibility: hidden;
 }
 
 
