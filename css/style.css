@@ -19,6 +19,7 @@ html {
     --bacground-color: #F5F4FA;
     --background-logo-color: #AFB1B8;
     --background-social-media: rgba(255, 255, 255, 0.1);
+    --black: #000000;
 
 }
 
@@ -306,11 +307,22 @@ body{
 
 }
 
-.icon-antenna{
+.btn-close{
     display: flex;
+    justify-content: flex-end;
+    padding-top: 8px;
+    padding-right: 8px;
+    
+}
+.icon-close{
     width: 30px;
     height: 30px;
-    color: #000000;
+    color: var(--black);
+    background: var(--primary-white-color);
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    padding: 6px;
+   
 }
 
 
