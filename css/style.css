@@ -305,6 +305,7 @@ body{
    transform: translate(-50%, -50%) scale(1);
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+   z-index: 10;
 }
 
 .btn-close{
@@ -417,13 +418,15 @@ body{
 .work-list{
     display:flex;
     justify-content: center;
+   
 }
 
 .work-list .item{
 
     position: relative;
-
+    z-index: 0;
     width:370px;
+    
 }
 
 .work-list .item:not(:last-child){
