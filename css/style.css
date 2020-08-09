@@ -684,12 +684,6 @@ color: var(--accent-color);
     flex-direction: row;
 }
 
-.form-field{
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-}
-
 .form-field input{
     display: inline-flex;
     width: 358px;
@@ -706,6 +700,10 @@ color: var(--accent-color);
     background-color: #2F303A;
     border: 0;
     outline: none;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
 }
 
  .btn-footer{
