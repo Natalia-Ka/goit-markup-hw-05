@@ -688,12 +688,12 @@ color: var(--accent-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    margin-right: 12px;
 }
 
 .form-field input{
     display: inline-flex;
     width: 358px;
+    height: 50px;
 
     padding-top: 15px;
     padding-bottom: 15px;
@@ -711,6 +711,10 @@ color: var(--accent-color);
  .btn-footer{
     display: flex; 
     align-items: center; 
+
+    width:200px;
+    height: 50px;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -727,6 +731,8 @@ color: var(--accent-color);
     padding-bottom: 10px;
     padding-left: 29px;
     padding-right: 28px;
+
+    margin-left: 12px;
 }  
 
 .icon-send{
