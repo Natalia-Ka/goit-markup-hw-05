@@ -702,26 +702,14 @@ color: var(--accent-color);
     border-radius: 4px;
 }
 
+ .btn-footer{
+    display: flex; 
+    align-items: center; 
+}  
 
-.footer-btn{
-    display:inline-block;
-    padding:10px 29px;
-    min-width: 200px;
-
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    text-align: center;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    color:var(--primary-white-color);
-    background-color: var(--primary-background-color);
-    text-decoration: none;
-    border-width: 0;
+.icon-send{
+    margin-left: 7px;
 }
-
 
 
 
