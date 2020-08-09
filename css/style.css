@@ -263,6 +263,7 @@ body{
     color:var(--primary-white-color);
     background-color: var(--primary-background-color);
     text-decoration: none;
+    border-width: 0;
 }
 
 .btn:hover
