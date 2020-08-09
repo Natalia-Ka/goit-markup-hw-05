@@ -687,6 +687,45 @@ color: var(--accent-color);
     padding-top: 72px;
 }
 
+/* .form-field{
+    display: inline-block;
+    width: 358px;
+    height: 50px;
+    
+} */
+
+.form-field input{
+    min-width: 358px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+
+
+.footer-btn{
+    display:inline-block;
+    padding:10px 29px;
+    min-width: 200px;
+
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color:var(--primary-white-color);
+    background-color: var(--primary-background-color);
+    text-decoration: none;
+    border-width: 0;
+}
+
+
+
+
+
 /* портфолио - фильтры */
 
 .portfolio-filters-link{
