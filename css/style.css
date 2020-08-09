@@ -335,8 +335,6 @@ body{
 }
 
 
-
-
 .modal-title{
    font-family: Roboto;
    font-weight: bold;
@@ -348,6 +346,26 @@ body{
 
    padding: 40px 40px 12px 40px;
 }
+
+.modal-form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form-field input{
+    width: 448px;   
+
+    letter-spacing: 0.01em;
+    color: var(--primary-text-color);
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 12px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
 
 /* загаловки */
 .features-title, .work-title, .about-us-title, .clients-title{
@@ -697,9 +715,7 @@ color: var(--accent-color);
 
 
 .form-field input{
-    /* display: inline-flex; */
     width: 358px;
-    /* height: 50px; */
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 12px;
