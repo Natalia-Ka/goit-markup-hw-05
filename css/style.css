@@ -335,7 +335,9 @@ body{
 }
 
 
-/* .modal-title{
+
+
+.modal-title{
    font-family: Roboto;
    font-weight: bold;
    font-size: 20px;
@@ -344,8 +346,8 @@ body{
    letter-spacing: 0.03em;
    color: var(--title-text-color);
 
-   padding-bottom: 30px;
-} */
+   padding: 40px 40px 12px 40px;
+}
 
 /* загаловки */
 .features-title, .work-title, .about-us-title, .clients-title{
