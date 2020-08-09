@@ -487,6 +487,9 @@ body{
 .about-us-sm{
     display:flex;
     justify-content: center;  
+
+    transition-duration: 2000ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .about-us-sm .item-sm:not(:last-child){
@@ -497,7 +500,11 @@ body{
     display: flex;
     width: 44px;
     height: 44px;
+
+    transition-duration: 2000ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
 
 .link-icon{
     display: flex;
@@ -507,22 +514,30 @@ body{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    --color4: var(--primary-white-color);
-    --color5: var(--background-logo-color); 
-    
-}
+    --color4: #FFFFFF;
+    --color5: #AFB1B8;
 
-.link-icon{
-    transition-property: all;
-    transition-duration: 250ms;
+
+    /* --color4: var(--primary-white-color);
+    --color5: var(--background-logo-color);  */
+    
+    transition-property: var(--color4);
+    transition-duration: 2000ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .link-icon:hover,
 .link-icon:focus{
+    --color4: #2196F3;
+    --color5: #FFFFFF;
+}
+
+
+/* .link-icon:hover,
+.link-icon:focus{
     --color4: var(--accent-color);
     --color5: var(--primary-white-color);
-}
+} */
 
 
 /* постоянные клиенты */
