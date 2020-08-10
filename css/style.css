@@ -539,8 +539,8 @@ body{
 
 .icon{
     display: flex;
-    width: 44px;
-    height: 44px;
+    width: 20px;
+    height: 20px;
     fill: currentColor;
 }
 
@@ -553,25 +553,20 @@ body{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     color: #AFB1B8;
+
+    transition-property: var(--bacground-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
     
 
 .link-icon:hover,
 .link-icon:focus{
-background-color: #2196F3;
-color: #FFFFFF;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }  
-
-
-/* .link-icon:hover,
-.link-icon:focus{
-    --color4: var(--accent-color);
-    --color5: var(--primary-white-color);
-} */
-
-
 
 
 
@@ -684,14 +679,15 @@ color: var(--accent-color);
 
 .icon-footer{
     display: flex;
-    width: 44px;
-    height: 44px;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
 }
 
 .sm-link:hover,
 .sm-link:focus{
-    --color4: var(--accent-color);
-    --color5: var(--primary-white-color);
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 .sm-link{
@@ -701,11 +697,11 @@ color: var(--accent-color);
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    --color4: var(--background-social-media);
-    --color5: var(--primary-white-color);  
+    background-color: var(--background-social-media);
+    color: var(--primary-white-color);  
 
-    transition-property: var(--color4), var(--color5);
-    transition-duration: 2000ms;
+    transition-property: var(--bacground-color);
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -785,8 +781,6 @@ color: var(--accent-color);
 .icon-send{
     margin-left: 5px;
 }
-
-
 
 
 
