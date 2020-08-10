@@ -541,6 +541,7 @@ body{
     display: flex;
     width: 44px;
     height: 44px;
+    fill: currentColor;
 }
 
 
@@ -552,38 +553,26 @@ body{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-white-color);
+    background-color: #FFFFFF;
     color: #AFB1B8;
-    fill: currentColor;
 }
-    /* --color4: #FFFFFF;
-    --color5: #AFB1B8; */
-    /* transition-property: var(--color4), var(--color5);
-    transition-duration: 2000ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-} */
-
-/* .link-icon:hover,
-.link-icon:focus{
-    --color4: #2196F3;
-    --color5: #FFFFFF;
-} */
-
-/* .link-icon:hover,
-.link-icon:focus{
-background-color: var(--accent-color);
-color: var(--primary-white-color);
-} */
+    
 
 .link-icon:hover,
 .link-icon:focus{
+background-color: #2196F3;
+color: #FFFFFF;
+}  
+
+
+/* .link-icon:hover,
+.link-icon:focus{
     --color4: var(--accent-color);
     --color5: var(--primary-white-color);
-}
+} */
 
-/* 
-fill="var(--color4, #fff)"
-fill="var(--color5, #afb1b8)"  */
+
+
 
 
 /* постоянные клиенты */
@@ -983,11 +972,9 @@ color: var(--accent-color);
      min-width: 200px;
      border-radius: 4px; 
      text-align: center;
-
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
-
     font-family: Roboto;
     font-weight: bold;
     font-size: 16px;
