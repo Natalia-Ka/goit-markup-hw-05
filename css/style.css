@@ -611,10 +611,13 @@ color: var(--accent-color);
 
 /* подвал */
 
+.bg{
+    background-color: #2F303A; 
+}
+
 .footer{
     display: flex;
     align-items: baseline;
-    background-color: #2F303A;
 }
 /* цвет логотипа 2 часть -подвал */
 .logo-footer{
